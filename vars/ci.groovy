@@ -1,4 +1,4 @@
-def checkoutSource(String repo, String branch = 'master') {
+def checkoutSource(String repo, String branch = 'main') {
     git branch: branch, url: repo
 }
 
