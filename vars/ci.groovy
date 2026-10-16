@@ -1,4 +1,5 @@
-def checkoutSource(String repo, String branch = 'main') {
+def checkoutSource(String repo, String branch = 'master') {
+    echo "Checking out branch: ${branch}"
     git branch: branch, url: repo
 }
 
